@@ -1,0 +1,18 @@
+.links{
+    padding: 3px;
+    margin: 1px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+.links:hover{
+    background-color: rgba(214, 214, 214, 0.364);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 1px;
+    transition: all 0.7s;
+
+}

@@ -1,0 +1,84 @@
+:root{
+  --white:#ffffff;
+  --black:#000000;
+  --blue:#00a6fa;
+  --green:#43e97b;
+   --transparent-bg:rgba(26, 26, 26, 0.54);
+}
+.item-btn{
+    position: relative;
+  }
+  .login-btn-desktop{
+    list-style: none;
+    margin-left: 10px;
+  }
+  .login-btn-desktop>.button{
+    color: #ffffff;
+    background-color: var(--green);
+  }
+  .login-btn-desktop>.button:hover{
+    color:var(--green);
+    background: var(--white);
+  }
+  .login-btn-mobile{
+    list-style: none;
+    margin-left: 10px;
+  }
+  .login-btn-mobile>.button{
+    color: var(--white);
+    background-color: var(--green);
+  }
+  .login-btn-mobile>.button:hover{
+    color: #ffffff;
+    background: #00fa32;
+  }
+  .item-btn::after{
+    
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #00fa3e;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    
+  
+  }
+  .item-btn:hover::after{
+    color: var(--green);
+      transform: scaleX(1);
+      transform-origin: bottom left;
+  }
+.item-btn-desktop{
+  position: relative;
+}
+.item-btn-desktop:hover{
+    color: var(--green);
+}
+.item-btn:hover{
+    color: #ffffff;
+    padding-left: 30px;
+    transition: all .4s;
+}
+.item-btn-desktop::after{
+  
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #00fa21;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  
+
+}
+.item-btn-desktop:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

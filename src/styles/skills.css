@@ -1,0 +1,57 @@
+.about{
+    width: 100%;
+    margin-top: 100px;
+}
+.intro-para{
+    font-size: 15px;
+    font-weight: 500;
+}
+.about h2{
+    color: cadetblue;
+}
+
+/* skills */
+.skills{
+    width: 100%;
+    background-color: #888888;
+    height: 25px;
+    color: aliceblue;
+    
+}
+.skill{
+    width: 100%;
+    padding: 4px;
+    
+}
+.label{
+    display: flex;
+}
+.skill label{
+    margin-right: auto;
+    font-size: 12px;
+}
+.skill p{
+    margin-left: auto;
+    font-size: 12px;
+    color:#888888
+}
+.certificate-container{
+    height: 200px;
+    overflow: hidden;
+    padding: 10px;
+    border: #888888 1px solid;
+    border-radius: 10px;
+    background-color: #000000;
+    color: aliceblue;
+}
+.certificate-container .cert-date{
+    border: 2px solid rgb(55, 255, 0);
+    width: 105px;
+    height: 40px;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.cert-title h4{
+color: rgb(55, 255, 0);
+}
