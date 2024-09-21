@@ -2,13 +2,13 @@ import React from 'react'
 import Header from '../../layout/AdminHeader/Header'
 import Sidebar from '../../layout/AdminSidebar/Sidebar'
 import Footer from '../../layout/AdminFooter/Footer'
-import ContectedUserComponent from '../../components/ContactedUserComponent'
+import ContectedUserComponent from '../../components/contactedUser/ContactedUserComponent'
 const Contacted_User = () => {
   return (
     <div className='bg-gray-100'>
-      <Sidebar/>
+      
       <ContectedUserComponent/>
-      <Footer/>
+    
     </div>
   )
 }

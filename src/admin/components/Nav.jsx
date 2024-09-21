@@ -50,10 +50,6 @@ const navItems=[
   to:'/admin/projects'
 },
 {
-    page:'Blog',
-    to:'/admin/blogs'
-},
-{
     page:'Contacted Users',
     to:'/admin/contacted_users'
 

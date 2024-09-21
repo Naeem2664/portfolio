@@ -6,9 +6,9 @@ import BlogComponent from '../../components/BlogComponent'
 const Blog = () => {
     return (
         <>
-       <Sidebar/>
+      
         <BlogComponent/>
-        <Footer/>
+       
         
         </>
     )

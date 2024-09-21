@@ -23,6 +23,12 @@ import Skills from './admin/pages/skills/Skills'
 import Blog from './admin/pages/blog/Blog'
 import Cookies from 'js-cookie'
 import Protectedroute from './routes/adminRoute/Protectedroute'
+import Add_Skill from './admin/components/skills/Add_Skill'
+import Add_Education from './admin/components/education/Add_Education'
+import Add_About from './admin/components/about/Add_About'
+import Add_Experience from './admin/components/experiences/Add_Experience'
+import Add_Project from './admin/components/projects/Add_Project'
+import Add_Service from './admin/components/services/Add_Service'
 function App() {
   
 
@@ -50,6 +56,12 @@ function App() {
       <Route path='projects' element={<Projects/>} />
       <Route path='services' element={<Services/>} />
       <Route path='skills' element={<Skills/>} />
+      <Route path='skills/add-new' element={<Add_Skill/>} />
+      <Route path='education/add-new' element={<Add_Education/>} />
+      <Route path='about_user/add-new' element={<Add_About/>} />
+      <Route path='experiences/add-new' element={<Add_Experience/>} />
+      <Route path='projects/add-new' element={<Add_Project/>} />
+      <Route path='services/add-new' element={<Add_Service/>} />
       <Route path='blogs' element={<Blog/>} />
       </Route>
       </Routes>

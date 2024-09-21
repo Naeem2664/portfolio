@@ -2,13 +2,11 @@ import React from 'react'
 import Header from '../../layout/AdminHeader/Header'
 import Sidebar from '../../layout/AdminSidebar/Sidebar'
 import Footer from '../../layout/AdminFooter/Footer'
-import ExperiencesComponent from '../../components/ExperiencesComponent'
+import ExperiencesComponent from '../../components/experiences/ExperiencesComponent'
 const Experiences = () => {
   return (
     <>
-    <Sidebar/>
     <ExperiencesComponent/>
-    <Footer/>
     </>
   )
 }

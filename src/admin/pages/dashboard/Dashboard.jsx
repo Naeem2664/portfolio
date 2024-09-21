@@ -6,10 +6,7 @@ import Footer from '../../layout/AdminFooter/Footer'
 const Dashboard = () => {
   return (
     <div>
-   <Sidebar/>
     <DashboardComponent/>
-    <Footer/>
-    
     </div>
   )
 }

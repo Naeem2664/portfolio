@@ -15,9 +15,9 @@ const Protectedroute = () => {
     },[adminId,adminStatus,navigate])
     return (
         <>
-        
+        <Sidebar/>
         <Outlet/>
-        
+        <Footer/>
         </>
     )
     
